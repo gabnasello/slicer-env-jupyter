@@ -1,0 +1,3 @@
+ARG VERSION=latest
+ARG BASE_CONTAINER=gnasello/slicer-env-jupyter:$VERSION
+FROM $BASE_CONTAINER

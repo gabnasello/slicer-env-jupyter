@@ -1,0 +1,9 @@
+channels:
+  - conda-forge
+dependencies:
+  - jupyter-server-proxy>=4.3.0
+  - jupyterhub-singleuser
+  - papermill
+  - pandas
+  - python-pptx
+  - pillow

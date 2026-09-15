@@ -1,0 +1,13 @@
+{
+    "display_name": "Slicer 5.12",
+    "language": "python",
+    "argv": [
+        "/home/jovyan/slicer/Slicer",
+        "--no-splash",
+        "--python-code",
+        "connection_file=r'{connection_file}';print('JupyterConnectionFile:['+connection_file+']');slicer.modules.jupyterkernel.startKernel(connection_file);slicer.util.mainWindow().showMaximized()"
+    ],
+    "env": {
+        "DISPLAY": ":1"
+    }
+}

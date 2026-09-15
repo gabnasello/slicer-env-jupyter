@@ -1,0 +1,14 @@
+services:
+  slicer:
+    image: gnasello/slicer-env-jupyter:2026-09-15
+    container_name: slicer-env-jupyter
+    user: root
+    ports:
+      - 8888:8888
+    environment:
+    #- NB_UID={NB_UID}
+    #- NB_GID={NB_GID}
+    - CHOWN_HOME=yes
+    - CHOWN_HOME_OPTS=-R
+    - GRANT_SUDO=yes
+    #- JUPYTER_PORT=8888
