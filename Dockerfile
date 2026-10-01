@@ -1,4 +1,4 @@
-FROM quay.io/jupyter/base-notebook:2026-07-28
+FROM quay.io/jupyter/base-notebook:2026-09-29
 
 ENV DOCKER_IMAGE_NAME='gnasello/slicer-env-jupyter' \
     DOCKER_IMAGE_DESCRIPTION='Slicer environment with Jupyter Notebook and JupyterLab' \
